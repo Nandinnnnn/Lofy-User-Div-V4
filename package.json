@@ -1,0 +1,22 @@
+{
+  "name": "lofy-user-div-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
+    "discord-scraper": "^2.1.1",
+    "exec": "^0.2.1",
+    "press-any-key": "^0.1.1",
+    "request": "^2.88.2",
+    "rgb-console": "^1.0.2",
+    "sleep": "^6.3.0"
+  }
+}
