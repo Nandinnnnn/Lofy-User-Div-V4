@@ -13,7 +13,7 @@
     Um scraper de id de usuário para enviar mensagem para a pessoas especifica.
     um checker de proxy utilizando a api do discord para validar se ela funciona.
     <br/>
-    <a href="https://youtu.be/vw2w-xhnTqA">Video</a>
+    <a href="https://youtu.be/KcHTJFdhnIg">Video</a>
     · 
     <a href="https://discord.gg/4Szhr7kMJg">Discord</a>
   </p>
