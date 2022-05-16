@@ -67,6 +67,7 @@ request({
         request({
             method: "GET",
             url: 'https://discord.com/api/v9/users/' + discordids[0],
+            proxy: 'http://' + proxy[0],
             json: true,
             headers: {
                 "Authorization": discordtoken[0],
@@ -98,6 +99,7 @@ request({
                 request({
                     method: "POST",
                     url: 'https://discord.com/api/v9/users/@me/channels',
+                    proxy: 'http://' + proxy[0],
                     body: {
                         "recipients": [`${discordids[0]}`]
                     },
@@ -129,6 +131,7 @@ request({
                         request({
                             method: "POST",
                             url: `https://discord.com/api/v9/channels/${inicio.id}/messages`,
+                            proxy: 'http://' + proxy[0],
                             body: {
                                 "content": mensagem,
                                 "nonce": "",
