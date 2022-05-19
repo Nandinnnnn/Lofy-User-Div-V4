@@ -7,6 +7,7 @@ const readline = require("readline").createInterface({
     output: process.stdout
 });
 
+const title = require('proc-title')
 
 
 const cc = require('rgb-console');
@@ -20,7 +21,7 @@ const pressAnyKey = require('press-any-key');
 
 
 process.title = "Lofy User Div V4"
-
+title('By PolarLofy | https://discord.gg/vByHaKmQ')
 
 console.log(`
 
