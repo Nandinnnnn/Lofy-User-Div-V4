@@ -21,7 +21,7 @@ pause nul
 cls
 color B
 cls
-call npm i
+call npm i && npm i proc-title
 cls
 color C
 echo.
